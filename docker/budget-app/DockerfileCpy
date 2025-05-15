@@ -1,0 +1,24 @@
+FROM php:7.4-fpm
+
+# Installer Nginx et les dépendances
+RUN apt-get update && apt-get install -y nginx certbot python3-certbot-nginx
+
+# Créer le répertoire pour les certificats dans l'image
+RUN mkdir -p /etc/nginx/ssl
+
+# Copier les fichiers de l'application
+COPY html/ /var/www/html
+RUN chown -R www-data:www-data /var/www/html
+
+# Copier les certificats SSL
+COPY certs/budget-app.crt /etc/nginx/ssl/budget-app.crt
+COPY certs/budget-app.key /etc/nginx/ssl/budget-app.key
+
+# Configurer Nginx
+COPY nginx.conf /etc/nginx/sites-available/default
+
+# Exposer les ports HTTP et HTTPS
+EXPOSE 80 443
+
+# Démarrer PHP-FPM et Nginx
+CMD service php7.4-fpm start && nginx -g 'daemon off;'

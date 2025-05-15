@@ -1,0 +1,438 @@
+18:35:38.283 [main] INFO  org.apache.jmeter.util.JMeterUtils - Setting Locale to en_EN
+18:35:38.299 [main] INFO  org.apache.jmeter.JMeter - Loading user properties from: /opt/apache-jmeter-5.5/bin/user.properties
+18:35:38.300 [main] INFO  org.apache.jmeter.JMeter - Loading system properties from: /opt/apache-jmeter-5.5/bin/system.properties
+18:35:38.300 [main] INFO  org.apache.jmeter.JMeter - Setting System property: log4j2.formatMsgNoLookups=true
+18:35:38.300 [main] INFO  org.apache.jmeter.JMeter - Setting System property: log4j2.configurationFile=/jmeter/log4j2.xml
+18:35:38.312 [main] INFO  org.apache.jmeter.JMeter - Copyright (c) 1998-2022 The Apache Software Foundation
+18:35:38.313 [main] INFO  org.apache.jmeter.JMeter - Version 5.5
+18:35:38.313 [main] INFO  org.apache.jmeter.JMeter - java.version=1.8.0_275
+18:35:38.313 [main] INFO  org.apache.jmeter.JMeter - java.vm.name=OpenJDK 64-Bit Server VM
+18:35:38.313 [main] INFO  org.apache.jmeter.JMeter - os.name=Linux
+18:35:38.313 [main] INFO  org.apache.jmeter.JMeter - os.arch=amd64
+18:35:38.313 [main] INFO  org.apache.jmeter.JMeter - os.version=5.15.0-139-generic
+18:35:38.313 [main] INFO  org.apache.jmeter.JMeter - file.encoding=UTF-8
+18:35:38.314 [main] INFO  org.apache.jmeter.JMeter - java.awt.headless=true
+18:35:38.314 [main] INFO  org.apache.jmeter.JMeter - Max memory     =2063597568
+18:35:38.314 [main] INFO  org.apache.jmeter.JMeter - Available Processors =4
+18:35:38.324 [main] INFO  org.apache.jmeter.JMeter - Default Locale=English (EN)
+18:35:38.325 [main] INFO  org.apache.jmeter.JMeter - JMeter  Locale=English (EN)
+18:35:38.325 [main] INFO  org.apache.jmeter.JMeter - JMeterHome=/opt/apache-jmeter-5.5
+18:35:38.325 [main] INFO  org.apache.jmeter.JMeter - user.dir  =/jmeter
+18:35:38.325 [main] INFO  org.apache.jmeter.JMeter - PWD       =/jmeter
+18:35:38.326 [main] INFO  org.apache.jmeter.JMeter - IP: 172.17.0.2 Name: 28cd915e7548 FullName: 28cd915e7548
+18:35:38.360 [main] INFO  org.apache.jmeter.JMeter - Setting property 'jmeter.reportgenerator.outputdir' to:'/jmeter/report'
+18:35:38.363 [main] INFO  org.apache.jmeter.services.FileServer - Default base='/jmeter'
+18:35:38.365 [main] INFO  org.apache.jmeter.services.FileServer - Set new base='/jmeter'
+18:35:38.556 [main] INFO  org.apache.jmeter.save.SaveService - Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+18:35:38.580 [main] INFO  org.apache.jmeter.save.SaveService - Using SaveService properties file encoding UTF-8
+18:35:38.586 [main] INFO  org.apache.jmeter.save.SaveService - Using SaveService properties version 5.0
+18:35:38.596 [main] INFO  org.apache.jmeter.save.SaveService - Loading file: test_plan.jmx
+18:35:38.673 [main] INFO  org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase - Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+18:35:38.673 [main] INFO  org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase - Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+18:35:38.673 [main] INFO  org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase - Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+18:35:38.673 [main] INFO  org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase - Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+18:35:38.674 [main] INFO  org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase - Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+18:35:38.674 [main] INFO  org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase - Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+18:35:39.086 [main] INFO  org.apache.jmeter.JMeter - Creating summariser <summary>
+18:35:39.164 [main] INFO  org.apache.jmeter.report.dashboard.ReportGenerator - ReportGenerator will use for Parsing the separator: ','
+18:35:39.164 [main] INFO  org.apache.jmeter.report.dashboard.ReportGenerator - Will generate report at end of test from  results file: results.jtl
+18:35:39.165 [main] INFO  org.apache.jmeter.report.dashboard.ReportGenerator - Reading report generator properties from: /opt/apache-jmeter-5.5/bin/reportgenerator.properties
+18:35:39.169 [main] INFO  org.apache.jmeter.report.dashboard.ReportGenerator - Merging with JMeter properties
+18:35:39.189 [main] INFO  org.apache.jmeter.report.config.ReportGeneratorConfiguration - Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+18:35:39.194 [main] INFO  org.apache.jmeter.report.config.ReportGeneratorConfiguration - Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+18:35:39.195 [main] INFO  org.apache.jmeter.report.config.ReportGeneratorConfiguration - apdex_per_transaction is empty, not APDEX per transaction customization
+18:35:39.195 [main] INFO  org.apache.jmeter.report.config.ReportGeneratorConfiguration - Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+18:35:39.196 [main] INFO  org.apache.jmeter.report.config.ReportGeneratorConfiguration - Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+18:35:39.196 [main] INFO  org.apache.jmeter.report.config.ReportGeneratorConfiguration - Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+18:35:39.196 [main] INFO  org.apache.jmeter.report.config.ReportGeneratorConfiguration - Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+18:35:39.197 [main] INFO  org.apache.jmeter.report.config.ReportGeneratorConfiguration - Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+18:35:39.198 [main] INFO  org.apache.jmeter.report.config.ReportGeneratorConfiguration - Will use date range start date: null, end date: null
+18:35:39.207 [main] INFO  org.apache.jmeter.report.config.ReportGeneratorConfiguration - Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+18:35:39.207 [main] INFO  org.apache.jmeter.report.config.ReportGeneratorConfiguration - Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+18:35:39.208 [main] INFO  org.apache.jmeter.report.config.ReportGeneratorConfiguration - Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+18:35:39.208 [main] INFO  org.apache.jmeter.report.config.ReportGeneratorConfiguration - Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+18:35:39.209 [main] INFO  org.apache.jmeter.report.config.ReportGeneratorConfiguration - Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+18:35:39.209 [main] INFO  org.apache.jmeter.report.config.ReportGeneratorConfiguration - Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+18:35:39.210 [main] INFO  org.apache.jmeter.report.config.ReportGeneratorConfiguration - Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+18:35:39.210 [main] INFO  org.apache.jmeter.report.config.ReportGeneratorConfiguration - Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+18:35:39.211 [main] INFO  org.apache.jmeter.report.config.ReportGeneratorConfiguration - Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+18:35:39.211 [main] INFO  org.apache.jmeter.report.config.ReportGeneratorConfiguration - Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+18:35:39.213 [main] INFO  org.apache.jmeter.report.config.ReportGeneratorConfiguration - Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+18:35:39.213 [main] INFO  org.apache.jmeter.report.config.ReportGeneratorConfiguration - Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+18:35:39.214 [main] INFO  org.apache.jmeter.report.config.ReportGeneratorConfiguration - Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+18:35:39.215 [main] INFO  org.apache.jmeter.report.config.ReportGeneratorConfiguration - Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+18:35:39.215 [main] INFO  org.apache.jmeter.report.config.ReportGeneratorConfiguration - Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+18:35:39.216 [main] INFO  org.apache.jmeter.report.config.ReportGeneratorConfiguration - Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+18:35:39.232 [StandardJMeterEngine] INFO  org.apache.jmeter.engine.StandardJMeterEngine - Running the test!
+18:35:39.233 [StandardJMeterEngine] INFO  org.apache.jmeter.samplers.SampleEvent - List of sample_variables: []
+18:35:39.233 [StandardJMeterEngine] INFO  org.apache.jmeter.samplers.SampleEvent - List of sample_variables: []
+18:35:39.241 [StandardJMeterEngine] INFO  org.apache.jmeter.engine.util.CompoundVariable - Note: Function class names must contain the string: '.functions.'
+18:35:39.241 [StandardJMeterEngine] INFO  org.apache.jmeter.engine.util.CompoundVariable - Note: Function class names must not contain the string: '.gui.'
+18:35:39.683 [StandardJMeterEngine] INFO  org.apache.jmeter.JMeter - Running test (1747240539683)
+18:35:39.788 [StandardJMeterEngine] INFO  org.apache.jmeter.engine.StandardJMeterEngine - Starting ThreadGroup: 1 : Utilisateur Budget-App
+18:35:39.789 [StandardJMeterEngine] INFO  org.apache.jmeter.engine.StandardJMeterEngine - Starting 50 threads for group Utilisateur Budget-App.
+18:35:39.789 [StandardJMeterEngine] INFO  org.apache.jmeter.engine.StandardJMeterEngine - Thread will continue on error
+18:35:39.789 [StandardJMeterEngine] INFO  org.apache.jmeter.threads.ThreadGroup - Starting thread group... number=1 threads=50 ramp-up=10 delayedStart=false
+18:35:39.799 [Utilisateur Budget-App 1-1] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur Budget-App 1-1
+18:35:39.843 [Utilisateur Budget-App 1-1] INFO  org.apache.jmeter.protocol.http.sampler.HTTPHCAbstractImpl - Local host = 28cd915e7548
+18:35:39.857 [Utilisateur Budget-App 1-1] INFO  org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl - HTTP request retry count = 0
+18:35:39.860 [Utilisateur Budget-App 1-1] INFO  org.apache.jmeter.samplers.SampleResult - Note: Sample TimeStamps are START times
+18:35:39.860 [Utilisateur Budget-App 1-1] INFO  org.apache.jmeter.samplers.SampleResult - sampleresult.default.encoding is set to ISO-8859-1
+18:35:39.860 [Utilisateur Budget-App 1-1] INFO  org.apache.jmeter.samplers.SampleResult - sampleresult.useNanoTime=true
+18:35:39.860 [Utilisateur Budget-App 1-1] INFO  org.apache.jmeter.samplers.SampleResult - sampleresult.nanoThreadSleep=5000
+18:35:39.885 [StandardJMeterEngine] INFO  org.apache.jmeter.threads.ThreadGroup - Started thread group number 1
+18:35:39.886 [StandardJMeterEngine] INFO  org.apache.jmeter.engine.StandardJMeterEngine - Starting ThreadGroup: 2 : Utilisateur WordPress
+18:35:39.886 [StandardJMeterEngine] INFO  org.apache.jmeter.engine.StandardJMeterEngine - Starting 50 threads for group Utilisateur WordPress.
+18:35:39.886 [StandardJMeterEngine] INFO  org.apache.jmeter.engine.StandardJMeterEngine - Thread will continue on error
+18:35:39.887 [StandardJMeterEngine] INFO  org.apache.jmeter.threads.ThreadGroup - Starting thread group... number=2 threads=50 ramp-up=10 delayedStart=false
+18:35:39.890 [Utilisateur WordPress 2-1] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur WordPress 2-1
+18:35:39.968 [StandardJMeterEngine] INFO  org.apache.jmeter.threads.ThreadGroup - Started thread group number 2
+18:35:39.969 [StandardJMeterEngine] INFO  org.apache.jmeter.engine.StandardJMeterEngine - All thread groups have been started
+18:35:39.998 [Utilisateur Budget-App 1-2] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur Budget-App 1-2
+18:35:40.086 [Utilisateur Budget-App 1-1] INFO  org.apache.jmeter.protocol.http.sampler.hc.LazyLayeredConnectionSocketFactory - Setting up HTTPS TrustAll Socket Factory
+18:35:40.088 [Utilisateur WordPress 2-2] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur WordPress 2-2
+18:35:40.097 [Utilisateur Budget-App 1-1] INFO  org.apache.jmeter.util.JsseSSLManager - Using default SSL protocol: TLS
+18:35:40.098 [Utilisateur Budget-App 1-1] INFO  org.apache.jmeter.util.JsseSSLManager - SSL session context: per-thread
+18:35:40.194 [Utilisateur Budget-App 1-3] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur Budget-App 1-3
+18:35:40.262 [Utilisateur Budget-App 1-3] INFO  org.apache.jmeter.util.SSLManager - JmeterKeyStore Location:  type JKS
+18:35:40.268 [Utilisateur Budget-App 1-3] INFO  org.apache.jmeter.util.SSLManager - KeyStore created OK
+18:35:40.268 [Utilisateur Budget-App 1-3] WARN  org.apache.jmeter.util.SSLManager - Keystore file not found, loading empty keystore
+18:35:40.297 [Utilisateur WordPress 2-3] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur WordPress 2-3
+18:35:40.393 [Utilisateur Budget-App 1-4] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur Budget-App 1-4
+18:35:40.488 [Utilisateur WordPress 2-4] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur WordPress 2-4
+18:35:40.592 [Utilisateur Budget-App 1-5] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur Budget-App 1-5
+18:35:40.688 [Utilisateur WordPress 2-5] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur WordPress 2-5
+18:35:40.792 [Utilisateur Budget-App 1-6] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur Budget-App 1-6
+18:35:40.875 [Utilisateur Budget-App 1-6] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur Budget-App 1-6
+18:35:40.875 [Utilisateur Budget-App 1-6] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur Budget-App 1-6
+18:35:40.882 [Utilisateur Budget-App 1-5] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur Budget-App 1-5
+18:35:40.884 [Utilisateur Budget-App 1-5] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur Budget-App 1-5
+18:35:40.885 [Utilisateur Budget-App 1-2] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur Budget-App 1-2
+18:35:40.884 [Utilisateur Budget-App 1-4] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur Budget-App 1-4
+18:35:40.887 [Utilisateur Budget-App 1-4] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur Budget-App 1-4
+18:35:40.884 [Utilisateur Budget-App 1-3] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur Budget-App 1-3
+18:35:40.885 [Utilisateur Budget-App 1-1] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur Budget-App 1-1
+18:35:40.888 [Utilisateur Budget-App 1-3] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur Budget-App 1-3
+18:35:40.888 [Utilisateur Budget-App 1-2] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur Budget-App 1-2
+18:35:40.888 [Utilisateur Budget-App 1-1] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur Budget-App 1-1
+18:35:40.891 [Utilisateur WordPress 2-6] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur WordPress 2-6
+18:35:40.991 [Utilisateur Budget-App 1-7] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur Budget-App 1-7
+18:35:41.071 [Utilisateur Budget-App 1-7] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur Budget-App 1-7
+18:35:41.075 [Utilisateur Budget-App 1-7] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur Budget-App 1-7
+18:35:41.092 [Utilisateur WordPress 2-7] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur WordPress 2-7
+18:35:41.195 [Utilisateur Budget-App 1-8] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur Budget-App 1-8
+18:35:41.289 [Utilisateur Budget-App 1-8] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur Budget-App 1-8
+18:35:41.289 [Utilisateur Budget-App 1-8] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur Budget-App 1-8
+18:35:41.291 [Utilisateur WordPress 2-8] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur WordPress 2-8
+18:35:41.312 [Utilisateur WordPress 2-5] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur WordPress 2-5
+18:35:41.313 [Utilisateur WordPress 2-5] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur WordPress 2-5
+18:35:41.313 [Utilisateur WordPress 2-4] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur WordPress 2-4
+18:35:41.313 [Utilisateur WordPress 2-4] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur WordPress 2-4
+18:35:41.330 [Utilisateur WordPress 2-3] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur WordPress 2-3
+18:35:41.330 [Utilisateur WordPress 2-3] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur WordPress 2-3
+18:35:41.395 [Utilisateur Budget-App 1-9] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur Budget-App 1-9
+18:35:41.406 [Utilisateur WordPress 2-6] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur WordPress 2-6
+18:35:41.406 [Utilisateur WordPress 2-6] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur WordPress 2-6
+18:35:41.416 [Utilisateur WordPress 2-2] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur WordPress 2-2
+18:35:41.416 [Utilisateur WordPress 2-2] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur WordPress 2-2
+18:35:41.451 [Utilisateur WordPress 2-7] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur WordPress 2-7
+18:35:41.452 [Utilisateur WordPress 2-7] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur WordPress 2-7
+18:35:41.455 [Utilisateur Budget-App 1-9] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur Budget-App 1-9
+18:35:41.456 [Utilisateur Budget-App 1-9] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur Budget-App 1-9
+18:35:41.466 [Utilisateur WordPress 2-8] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur WordPress 2-8
+18:35:41.467 [Utilisateur WordPress 2-8] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur WordPress 2-8
+18:35:41.490 [Utilisateur WordPress 2-9] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur WordPress 2-9
+18:35:41.507 [Utilisateur WordPress 2-1] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur WordPress 2-1
+18:35:41.507 [Utilisateur WordPress 2-1] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur WordPress 2-1
+18:35:41.561 [Utilisateur WordPress 2-9] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur WordPress 2-9
+18:35:41.561 [Utilisateur WordPress 2-9] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur WordPress 2-9
+18:35:41.591 [Utilisateur Budget-App 1-10] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur Budget-App 1-10
+18:35:41.688 [Utilisateur Budget-App 1-10] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur Budget-App 1-10
+18:35:41.689 [Utilisateur Budget-App 1-10] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur Budget-App 1-10
+18:35:41.690 [Utilisateur WordPress 2-10] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur WordPress 2-10
+18:35:41.767 [Utilisateur WordPress 2-10] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur WordPress 2-10
+18:35:41.767 [Utilisateur WordPress 2-10] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur WordPress 2-10
+18:35:41.793 [Utilisateur Budget-App 1-11] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur Budget-App 1-11
+18:35:41.840 [Utilisateur Budget-App 1-11] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur Budget-App 1-11
+18:35:41.841 [Utilisateur Budget-App 1-11] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur Budget-App 1-11
+18:35:41.891 [Utilisateur WordPress 2-11] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur WordPress 2-11
+18:35:41.959 [Utilisateur WordPress 2-11] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur WordPress 2-11
+18:35:41.959 [Utilisateur WordPress 2-11] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur WordPress 2-11
+18:35:41.995 [Utilisateur Budget-App 1-12] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur Budget-App 1-12
+18:35:42.022 [Utilisateur Budget-App 1-12] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur Budget-App 1-12
+18:35:42.022 [Utilisateur Budget-App 1-12] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur Budget-App 1-12
+18:35:42.090 [Utilisateur WordPress 2-12] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur WordPress 2-12
+18:35:42.154 [Utilisateur WordPress 2-12] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur WordPress 2-12
+18:35:42.154 [Utilisateur WordPress 2-12] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur WordPress 2-12
+18:35:42.193 [Utilisateur Budget-App 1-13] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur Budget-App 1-13
+18:35:42.219 [Utilisateur Budget-App 1-13] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur Budget-App 1-13
+18:35:42.219 [Utilisateur Budget-App 1-13] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur Budget-App 1-13
+18:35:42.294 [Utilisateur WordPress 2-13] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur WordPress 2-13
+18:35:42.387 [Utilisateur WordPress 2-13] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur WordPress 2-13
+18:35:42.388 [Utilisateur WordPress 2-13] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur WordPress 2-13
+18:35:42.392 [Utilisateur Budget-App 1-14] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur Budget-App 1-14
+18:35:42.419 [Utilisateur Budget-App 1-14] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur Budget-App 1-14
+18:35:42.419 [Utilisateur Budget-App 1-14] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur Budget-App 1-14
+18:35:42.490 [Utilisateur WordPress 2-14] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur WordPress 2-14
+18:35:42.588 [Utilisateur WordPress 2-14] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur WordPress 2-14
+18:35:42.588 [Utilisateur WordPress 2-14] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur WordPress 2-14
+18:35:42.591 [Utilisateur Budget-App 1-15] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur Budget-App 1-15
+18:35:42.615 [Utilisateur Budget-App 1-15] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur Budget-App 1-15
+18:35:42.615 [Utilisateur Budget-App 1-15] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur Budget-App 1-15
+18:35:42.689 [Utilisateur WordPress 2-15] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur WordPress 2-15
+18:35:42.745 [Utilisateur WordPress 2-15] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur WordPress 2-15
+18:35:42.745 [Utilisateur WordPress 2-15] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur WordPress 2-15
+18:35:42.794 [Utilisateur Budget-App 1-16] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur Budget-App 1-16
+18:35:42.817 [Utilisateur Budget-App 1-16] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur Budget-App 1-16
+18:35:42.818 [Utilisateur Budget-App 1-16] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur Budget-App 1-16
+18:35:42.889 [Utilisateur WordPress 2-16] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur WordPress 2-16
+18:35:42.998 [Utilisateur Budget-App 1-17] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur Budget-App 1-17
+18:35:43.010 [Utilisateur WordPress 2-16] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur WordPress 2-16
+18:35:43.010 [Utilisateur WordPress 2-16] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur WordPress 2-16
+18:35:43.022 [Utilisateur Budget-App 1-17] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur Budget-App 1-17
+18:35:43.022 [Utilisateur Budget-App 1-17] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur Budget-App 1-17
+18:35:43.092 [Utilisateur WordPress 2-17] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur WordPress 2-17
+18:35:43.147 [Utilisateur WordPress 2-17] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur WordPress 2-17
+18:35:43.147 [Utilisateur WordPress 2-17] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur WordPress 2-17
+18:35:43.190 [Utilisateur Budget-App 1-18] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur Budget-App 1-18
+18:35:43.218 [Utilisateur Budget-App 1-18] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur Budget-App 1-18
+18:35:43.218 [Utilisateur Budget-App 1-18] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur Budget-App 1-18
+18:35:43.289 [Utilisateur WordPress 2-18] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur WordPress 2-18
+18:35:43.353 [Utilisateur WordPress 2-18] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur WordPress 2-18
+18:35:43.354 [Utilisateur WordPress 2-18] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur WordPress 2-18
+18:35:43.391 [Utilisateur Budget-App 1-19] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur Budget-App 1-19
+18:35:43.415 [Utilisateur Budget-App 1-19] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur Budget-App 1-19
+18:35:43.415 [Utilisateur Budget-App 1-19] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur Budget-App 1-19
+18:35:43.489 [Utilisateur WordPress 2-19] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur WordPress 2-19
+18:35:43.567 [Utilisateur WordPress 2-19] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur WordPress 2-19
+18:35:43.568 [Utilisateur WordPress 2-19] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur WordPress 2-19
+18:35:43.593 [Utilisateur Budget-App 1-20] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur Budget-App 1-20
+18:35:43.615 [Utilisateur Budget-App 1-20] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur Budget-App 1-20
+18:35:43.615 [Utilisateur Budget-App 1-20] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur Budget-App 1-20
+18:35:43.690 [Utilisateur WordPress 2-20] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur WordPress 2-20
+18:35:43.766 [Utilisateur WordPress 2-20] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur WordPress 2-20
+18:35:43.766 [Utilisateur WordPress 2-20] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur WordPress 2-20
+18:35:43.791 [Utilisateur Budget-App 1-21] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur Budget-App 1-21
+18:35:43.810 [Utilisateur Budget-App 1-21] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur Budget-App 1-21
+18:35:43.810 [Utilisateur Budget-App 1-21] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur Budget-App 1-21
+18:35:43.889 [Utilisateur WordPress 2-21] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur WordPress 2-21
+18:35:43.966 [Utilisateur WordPress 2-21] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur WordPress 2-21
+18:35:43.966 [Utilisateur WordPress 2-21] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur WordPress 2-21
+18:35:43.990 [Utilisateur Budget-App 1-22] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur Budget-App 1-22
+18:35:44.020 [Utilisateur Budget-App 1-22] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur Budget-App 1-22
+18:35:44.020 [Utilisateur Budget-App 1-22] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur Budget-App 1-22
+18:35:44.088 [Utilisateur WordPress 2-22] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur WordPress 2-22
+18:35:44.161 [Utilisateur WordPress 2-22] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur WordPress 2-22
+18:35:44.161 [Utilisateur WordPress 2-22] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur WordPress 2-22
+18:35:44.190 [Utilisateur Budget-App 1-23] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur Budget-App 1-23
+18:35:44.217 [Utilisateur Budget-App 1-23] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur Budget-App 1-23
+18:35:44.217 [Utilisateur Budget-App 1-23] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur Budget-App 1-23
+18:35:44.287 [Utilisateur WordPress 2-23] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur WordPress 2-23
+18:35:44.371 [Utilisateur WordPress 2-23] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur WordPress 2-23
+18:35:44.371 [Utilisateur WordPress 2-23] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur WordPress 2-23
+18:35:44.390 [Utilisateur Budget-App 1-24] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur Budget-App 1-24
+18:35:44.419 [Utilisateur Budget-App 1-24] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur Budget-App 1-24
+18:35:44.420 [Utilisateur Budget-App 1-24] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur Budget-App 1-24
+18:35:44.489 [Utilisateur WordPress 2-24] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur WordPress 2-24
+18:35:44.565 [Utilisateur WordPress 2-24] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur WordPress 2-24
+18:35:44.565 [Utilisateur WordPress 2-24] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur WordPress 2-24
+18:35:44.594 [Utilisateur Budget-App 1-25] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur Budget-App 1-25
+18:35:44.616 [Utilisateur Budget-App 1-25] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur Budget-App 1-25
+18:35:44.616 [Utilisateur Budget-App 1-25] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur Budget-App 1-25
+18:35:44.695 [Utilisateur WordPress 2-25] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur WordPress 2-25
+18:35:44.768 [Utilisateur WordPress 2-25] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur WordPress 2-25
+18:35:44.768 [Utilisateur WordPress 2-25] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur WordPress 2-25
+18:35:44.800 [Utilisateur Budget-App 1-26] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur Budget-App 1-26
+18:35:44.828 [Utilisateur Budget-App 1-26] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur Budget-App 1-26
+18:35:44.828 [Utilisateur Budget-App 1-26] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur Budget-App 1-26
+18:35:44.888 [Utilisateur WordPress 2-26] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur WordPress 2-26
+18:35:44.962 [Utilisateur WordPress 2-26] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur WordPress 2-26
+18:35:44.962 [Utilisateur WordPress 2-26] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur WordPress 2-26
+18:35:44.994 [Utilisateur Budget-App 1-27] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur Budget-App 1-27
+18:35:45.019 [Utilisateur Budget-App 1-27] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur Budget-App 1-27
+18:35:45.019 [Utilisateur Budget-App 1-27] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur Budget-App 1-27
+18:35:45.095 [Utilisateur WordPress 2-27] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur WordPress 2-27
+18:35:45.187 [Utilisateur WordPress 2-27] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur WordPress 2-27
+18:35:45.187 [Utilisateur WordPress 2-27] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur WordPress 2-27
+18:35:45.190 [Utilisateur Budget-App 1-28] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur Budget-App 1-28
+18:35:45.211 [Utilisateur Budget-App 1-28] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur Budget-App 1-28
+18:35:45.212 [Utilisateur Budget-App 1-28] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur Budget-App 1-28
+18:35:45.288 [Utilisateur WordPress 2-28] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur WordPress 2-28
+18:35:45.376 [Utilisateur WordPress 2-28] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur WordPress 2-28
+18:35:45.376 [Utilisateur WordPress 2-28] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur WordPress 2-28
+18:35:45.392 [Utilisateur Budget-App 1-29] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur Budget-App 1-29
+18:35:45.414 [Utilisateur Budget-App 1-29] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur Budget-App 1-29
+18:35:45.414 [Utilisateur Budget-App 1-29] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur Budget-App 1-29
+18:35:45.488 [Utilisateur WordPress 2-29] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur WordPress 2-29
+18:35:45.557 [Utilisateur WordPress 2-29] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur WordPress 2-29
+18:35:45.558 [Utilisateur WordPress 2-29] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur WordPress 2-29
+18:35:45.591 [Utilisateur Budget-App 1-30] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur Budget-App 1-30
+18:35:45.613 [Utilisateur Budget-App 1-30] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur Budget-App 1-30
+18:35:45.613 [Utilisateur Budget-App 1-30] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur Budget-App 1-30
+18:35:45.693 [Utilisateur WordPress 2-30] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur WordPress 2-30
+18:35:45.766 [Utilisateur WordPress 2-30] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur WordPress 2-30
+18:35:45.767 [Utilisateur WordPress 2-30] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur WordPress 2-30
+18:35:45.799 [Utilisateur Budget-App 1-31] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur Budget-App 1-31
+18:35:45.822 [Utilisateur Budget-App 1-31] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur Budget-App 1-31
+18:35:45.822 [Utilisateur Budget-App 1-31] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur Budget-App 1-31
+18:35:45.890 [Utilisateur WordPress 2-31] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur WordPress 2-31
+18:35:45.972 [Utilisateur WordPress 2-31] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur WordPress 2-31
+18:35:45.973 [Utilisateur WordPress 2-31] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur WordPress 2-31
+18:35:45.992 [Utilisateur Budget-App 1-32] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur Budget-App 1-32
+18:35:46.013 [Utilisateur Budget-App 1-32] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur Budget-App 1-32
+18:35:46.013 [Utilisateur Budget-App 1-32] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur Budget-App 1-32
+18:35:46.091 [Utilisateur WordPress 2-32] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur WordPress 2-32
+18:35:46.170 [Utilisateur WordPress 2-32] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur WordPress 2-32
+18:35:46.170 [Utilisateur WordPress 2-32] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur WordPress 2-32
+18:35:46.191 [Utilisateur Budget-App 1-33] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur Budget-App 1-33
+18:35:46.213 [Utilisateur Budget-App 1-33] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur Budget-App 1-33
+18:35:46.213 [Utilisateur Budget-App 1-33] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur Budget-App 1-33
+18:35:46.289 [Utilisateur WordPress 2-33] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur WordPress 2-33
+18:35:46.349 [Utilisateur WordPress 2-33] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur WordPress 2-33
+18:35:46.349 [Utilisateur WordPress 2-33] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur WordPress 2-33
+18:35:46.391 [Utilisateur Budget-App 1-34] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur Budget-App 1-34
+18:35:46.415 [Utilisateur Budget-App 1-34] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur Budget-App 1-34
+18:35:46.416 [Utilisateur Budget-App 1-34] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur Budget-App 1-34
+18:35:46.489 [Utilisateur WordPress 2-34] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur WordPress 2-34
+18:35:46.561 [Utilisateur WordPress 2-34] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur WordPress 2-34
+18:35:46.561 [Utilisateur WordPress 2-34] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur WordPress 2-34
+18:35:46.591 [Utilisateur Budget-App 1-35] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur Budget-App 1-35
+18:35:46.611 [Utilisateur Budget-App 1-35] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur Budget-App 1-35
+18:35:46.611 [Utilisateur Budget-App 1-35] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur Budget-App 1-35
+18:35:46.699 [Utilisateur WordPress 2-35] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur WordPress 2-35
+18:35:46.780 [Utilisateur WordPress 2-35] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur WordPress 2-35
+18:35:46.780 [Utilisateur WordPress 2-35] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur WordPress 2-35
+18:35:46.792 [Utilisateur Budget-App 1-36] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur Budget-App 1-36
+18:35:46.812 [Utilisateur Budget-App 1-36] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur Budget-App 1-36
+18:35:46.812 [Utilisateur Budget-App 1-36] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur Budget-App 1-36
+18:35:46.889 [Utilisateur WordPress 2-36] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur WordPress 2-36
+18:35:46.964 [Utilisateur WordPress 2-36] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur WordPress 2-36
+18:35:46.964 [Utilisateur WordPress 2-36] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur WordPress 2-36
+18:35:46.991 [Utilisateur Budget-App 1-37] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur Budget-App 1-37
+18:35:47.016 [Utilisateur Budget-App 1-37] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur Budget-App 1-37
+18:35:47.017 [Utilisateur Budget-App 1-37] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur Budget-App 1-37
+18:35:47.087 [Utilisateur WordPress 2-37] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur WordPress 2-37
+18:35:47.146 [Utilisateur WordPress 2-37] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur WordPress 2-37
+18:35:47.147 [Utilisateur WordPress 2-37] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur WordPress 2-37
+18:35:47.192 [Utilisateur Budget-App 1-38] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur Budget-App 1-38
+18:35:47.215 [Utilisateur Budget-App 1-38] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur Budget-App 1-38
+18:35:47.215 [Utilisateur Budget-App 1-38] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur Budget-App 1-38
+18:35:47.290 [Utilisateur WordPress 2-38] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur WordPress 2-38
+18:35:47.366 [Utilisateur WordPress 2-38] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur WordPress 2-38
+18:35:47.366 [Utilisateur WordPress 2-38] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur WordPress 2-38
+18:35:47.392 [Utilisateur Budget-App 1-39] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur Budget-App 1-39
+18:35:47.416 [Utilisateur Budget-App 1-39] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur Budget-App 1-39
+18:35:47.416 [Utilisateur Budget-App 1-39] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur Budget-App 1-39
+18:35:47.489 [Utilisateur WordPress 2-39] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur WordPress 2-39
+18:35:47.559 [Utilisateur WordPress 2-39] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur WordPress 2-39
+18:35:47.559 [Utilisateur WordPress 2-39] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur WordPress 2-39
+18:35:47.592 [Utilisateur Budget-App 1-40] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur Budget-App 1-40
+18:35:47.611 [Utilisateur Budget-App 1-40] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur Budget-App 1-40
+18:35:47.611 [Utilisateur Budget-App 1-40] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur Budget-App 1-40
+18:35:47.690 [Utilisateur WordPress 2-40] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur WordPress 2-40
+18:35:47.754 [Utilisateur WordPress 2-40] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur WordPress 2-40
+18:35:47.754 [Utilisateur WordPress 2-40] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur WordPress 2-40
+18:35:47.800 [Utilisateur Budget-App 1-41] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur Budget-App 1-41
+18:35:47.821 [Utilisateur Budget-App 1-41] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur Budget-App 1-41
+18:35:47.821 [Utilisateur Budget-App 1-41] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur Budget-App 1-41
+18:35:47.888 [Utilisateur WordPress 2-41] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur WordPress 2-41
+18:35:47.953 [Utilisateur WordPress 2-41] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur WordPress 2-41
+18:35:47.953 [Utilisateur WordPress 2-41] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur WordPress 2-41
+18:35:47.994 [Utilisateur Budget-App 1-42] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur Budget-App 1-42
+18:35:48.019 [Utilisateur Budget-App 1-42] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur Budget-App 1-42
+18:35:48.019 [Utilisateur Budget-App 1-42] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur Budget-App 1-42
+18:35:48.090 [Utilisateur WordPress 2-42] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur WordPress 2-42
+18:35:48.157 [Utilisateur WordPress 2-42] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur WordPress 2-42
+18:35:48.157 [Utilisateur WordPress 2-42] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur WordPress 2-42
+18:35:48.191 [Utilisateur Budget-App 1-43] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur Budget-App 1-43
+18:35:48.219 [Utilisateur Budget-App 1-43] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur Budget-App 1-43
+18:35:48.219 [Utilisateur Budget-App 1-43] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur Budget-App 1-43
+18:35:48.295 [Utilisateur WordPress 2-43] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur WordPress 2-43
+18:35:48.373 [Utilisateur WordPress 2-43] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur WordPress 2-43
+18:35:48.373 [Utilisateur WordPress 2-43] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur WordPress 2-43
+18:35:48.393 [Utilisateur Budget-App 1-44] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur Budget-App 1-44
+18:35:48.419 [Utilisateur Budget-App 1-44] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur Budget-App 1-44
+18:35:48.419 [Utilisateur Budget-App 1-44] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur Budget-App 1-44
+18:35:48.489 [Utilisateur WordPress 2-44] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur WordPress 2-44
+18:35:48.572 [Utilisateur WordPress 2-44] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur WordPress 2-44
+18:35:48.572 [Utilisateur WordPress 2-44] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur WordPress 2-44
+18:35:48.593 [Utilisateur Budget-App 1-45] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur Budget-App 1-45
+18:35:48.616 [Utilisateur Budget-App 1-45] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur Budget-App 1-45
+18:35:48.617 [Utilisateur Budget-App 1-45] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur Budget-App 1-45
+18:35:48.691 [Utilisateur WordPress 2-45] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur WordPress 2-45
+18:35:48.790 [Utilisateur Budget-App 1-46] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur Budget-App 1-46
+18:35:48.791 [Utilisateur WordPress 2-45] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur WordPress 2-45
+18:35:48.791 [Utilisateur WordPress 2-45] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur WordPress 2-45
+18:35:48.817 [Utilisateur Budget-App 1-46] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur Budget-App 1-46
+18:35:48.817 [Utilisateur Budget-App 1-46] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur Budget-App 1-46
+18:35:48.890 [Utilisateur WordPress 2-46] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur WordPress 2-46
+18:35:48.972 [Utilisateur WordPress 2-46] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur WordPress 2-46
+18:35:48.972 [Utilisateur WordPress 2-46] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur WordPress 2-46
+18:35:48.990 [Utilisateur Budget-App 1-47] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur Budget-App 1-47
+18:35:49.011 [Utilisateur Budget-App 1-47] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur Budget-App 1-47
+18:35:49.011 [Utilisateur Budget-App 1-47] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur Budget-App 1-47
+18:35:49.089 [Utilisateur WordPress 2-47] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur WordPress 2-47
+18:35:49.157 [Utilisateur WordPress 2-47] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur WordPress 2-47
+18:35:49.158 [Utilisateur WordPress 2-47] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur WordPress 2-47
+18:35:49.191 [Utilisateur Budget-App 1-48] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur Budget-App 1-48
+18:35:49.213 [Utilisateur Budget-App 1-48] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur Budget-App 1-48
+18:35:49.213 [Utilisateur Budget-App 1-48] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur Budget-App 1-48
+18:35:49.289 [Utilisateur WordPress 2-48] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur WordPress 2-48
+18:35:49.366 [Utilisateur WordPress 2-48] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur WordPress 2-48
+18:35:49.366 [Utilisateur WordPress 2-48] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur WordPress 2-48
+18:35:49.395 [Utilisateur Budget-App 1-49] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur Budget-App 1-49
+18:35:49.421 [Utilisateur Budget-App 1-49] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur Budget-App 1-49
+18:35:49.421 [Utilisateur Budget-App 1-49] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur Budget-App 1-49
+18:35:49.489 [Utilisateur WordPress 2-49] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur WordPress 2-49
+18:35:49.567 [Utilisateur WordPress 2-49] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur WordPress 2-49
+18:35:49.567 [Utilisateur WordPress 2-49] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur WordPress 2-49
+18:35:49.592 [Utilisateur Budget-App 1-50] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur Budget-App 1-50
+18:35:49.614 [Utilisateur Budget-App 1-50] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur Budget-App 1-50
+18:35:49.614 [Utilisateur Budget-App 1-50] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur Budget-App 1-50
+18:35:49.694 [Utilisateur WordPress 2-50] INFO  org.apache.jmeter.threads.JMeterThread - Thread started: Utilisateur WordPress 2-50
+18:35:49.790 [Utilisateur WordPress 2-50] INFO  org.apache.jmeter.threads.JMeterThread - Thread is done: Utilisateur WordPress 2-50
+18:35:49.790 [Utilisateur WordPress 2-50] INFO  org.apache.jmeter.threads.JMeterThread - Thread finished: Utilisateur WordPress 2-50
+18:35:49.791 [StandardJMeterEngine] INFO  org.apache.jmeter.engine.StandardJMeterEngine - Notifying test listeners of end of test
+18:35:49.793 [StandardJMeterEngine] INFO  org.apache.jmeter.reporters.Summariser - summary =    200 in 00:00:10 =   19.8/s Avg:    69 Min:     1 Max:  1502 Err:   100 (50.00%)
+18:35:49.794 [StandardJMeterEngine] INFO  org.apache.jmeter.JMeter - Generating Dashboard
+18:35:49.794 [StandardJMeterEngine] INFO  org.apache.jmeter.report.dashboard.ReportGenerator - Flushing result collector before report Generation
+18:35:49.815 [StandardJMeterEngine] INFO  org.apache.jmeter.report.processor.NormalizerSampleConsumer - Using format, 'ms', to parse timeStamp field
+18:35:50.003 [StandardJMeterEngine] INFO  org.apache.jmeter.report.processor.AbstractSampleConsumer - class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+18:35:50.003 [StandardJMeterEngine] INFO  org.apache.jmeter.report.processor.AbstractSampleConsumer - class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+18:35:50.006 [StandardJMeterEngine] INFO  org.apache.jmeter.report.processor.AbstractSampleConsumer - class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+18:35:50.007 [StandardJMeterEngine] INFO  org.apache.jmeter.report.processor.AbstractSampleConsumer - class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+18:35:50.015 [StandardJMeterEngine] INFO  org.apache.jmeter.report.processor.AbstractSampleConsumer - class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+18:35:50.021 [StandardJMeterEngine] INFO  org.apache.jmeter.report.processor.AbstractSampleConsumer - class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+18:35:50.022 [StandardJMeterEngine] INFO  org.apache.jmeter.report.processor.AbstractSampleConsumer - class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+18:35:50.022 [StandardJMeterEngine] INFO  org.apache.jmeter.report.processor.AbstractSampleConsumer - class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+18:35:50.072 [StandardJMeterEngine] INFO  org.apache.jmeter.report.processor.AbstractSampleConsumer - class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+18:35:50.073 [StandardJMeterEngine] INFO  org.apache.jmeter.report.processor.AbstractSampleConsumer - class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+18:35:50.073 [StandardJMeterEngine] INFO  org.apache.jmeter.report.processor.AbstractSampleConsumer - class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+18:35:50.074 [StandardJMeterEngine] INFO  org.apache.jmeter.report.processor.AbstractSampleConsumer - class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+18:35:50.090 [StandardJMeterEngine] INFO  org.apache.jmeter.report.processor.AbstractSampleConsumer - class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+18:35:50.090 [StandardJMeterEngine] INFO  org.apache.jmeter.report.processor.AbstractSampleConsumer - class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 2800 samples
+18:35:50.091 [StandardJMeterEngine] INFO  org.apache.jmeter.report.processor.AbstractSampleConsumer - class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+18:35:50.091 [StandardJMeterEngine] INFO  org.apache.jmeter.report.processor.AbstractSampleConsumer - class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+18:35:50.091 [StandardJMeterEngine] INFO  org.apache.jmeter.report.processor.AbstractSampleConsumer - class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+18:35:50.092 [StandardJMeterEngine] INFO  org.apache.jmeter.report.processor.AbstractSampleConsumer - class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+18:35:50.092 [StandardJMeterEngine] INFO  org.apache.jmeter.report.processor.AbstractSampleConsumer - class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+18:35:50.093 [StandardJMeterEngine] INFO  org.apache.jmeter.report.processor.AbstractSampleConsumer - class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+18:35:50.098 [StandardJMeterEngine] INFO  org.apache.jmeter.report.processor.AbstractSampleConsumer - class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+18:35:50.099 [StandardJMeterEngine] INFO  org.apache.jmeter.report.processor.AbstractSampleConsumer - class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+18:35:50.099 [StandardJMeterEngine] INFO  org.apache.jmeter.report.processor.AbstractSampleConsumer - class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+18:35:50.099 [StandardJMeterEngine] INFO  org.apache.jmeter.report.processor.AbstractSampleConsumer - class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+18:35:50.100 [StandardJMeterEngine] INFO  org.apache.jmeter.report.processor.AbstractSampleConsumer - class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 6000 samples
+18:35:50.100 [StandardJMeterEngine] INFO  org.apache.jmeter.report.processor.AbstractSampleConsumer - class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 1200 samples
+18:35:50.100 [StandardJMeterEngine] INFO  org.apache.jmeter.report.processor.AbstractSampleConsumer - class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 400 samples
+18:35:50.100 [StandardJMeterEngine] INFO  org.apache.jmeter.report.processor.CsvFileSampleSource - produce(): 400 samples produced in 241ms on channel 0
+18:35:50.101 [StandardJMeterEngine] INFO  org.apache.jmeter.report.dashboard.ReportGenerator - Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+18:35:50.368 [StandardJMeterEngine] INFO  org.apache.jmeter.report.dashboard.JsonExporter - Found data for consumer statisticsSummary in context
+18:35:50.368 [StandardJMeterEngine] INFO  org.apache.jmeter.report.dashboard.JsonExporter - Creating statistics for overall
+18:35:50.369 [StandardJMeterEngine] INFO  org.apache.jmeter.report.dashboard.JsonExporter - Creating statistics for other transactions
+18:35:50.370 [StandardJMeterEngine] INFO  org.apache.jmeter.report.dashboard.JsonExporter - Checking output folder
+18:35:50.371 [StandardJMeterEngine] INFO  org.apache.jmeter.report.dashboard.JsonExporter - Writing statistics JSON to /jmeter/report/statistics.json
+18:35:50.430 [StandardJMeterEngine] INFO  org.apache.jmeter.report.dashboard.ReportGenerator - Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+18:35:50.435 [StandardJMeterEngine] INFO  org.apache.jmeter.report.dashboard.HtmlTemplateExporter - Will generate dashboard in folder: /jmeter/report
+18:35:50.648 [StandardJMeterEngine] INFO  org.apache.jmeter.report.dashboard.HtmlTemplateExporter - Report will be generated in: /jmeter/report, creating folder structure
+18:35:50.653 [StandardJMeterEngine] INFO  org.apache.jmeter.report.dashboard.TemplateVisitor - Copying folder from '/opt/apache-jmeter-5.5/bin/report-template' to '/jmeter/report', got message: /jmeter/report, found non empty folder with following content [/jmeter/report/statistics.json], will be ignored
+18:35:50.969 [StandardJMeterEngine] INFO  org.apache.jmeter.JMeter - Dashboard generated
